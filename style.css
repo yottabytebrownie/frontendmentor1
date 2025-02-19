@@ -1,36 +1,40 @@
-/* styles.css */
+/* Centering the card and setting the background */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: hsl(212, 45%, 89%);
-    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%); /* Light blue background */
+    font-family: 'Outfit', sans-serif; /* Ensure consistent font */
   }
   
+  /* Card styling */
   .card {
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     padding: 20px;
-    max-width: 300px;
+    max-width: 320px; /* Set a fixed width for sizing */
     text-align: center;
   }
   
+  /* QR Code image styling */
   .qr-image {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 10px; /* Rounded corners */
   }
   
+  /* Title styling */
   h1 {
-    font-size: 1.2rem;
-    color: hsl(218, 44%, 22%);
-    margin-top: 20px;
+    font-size: 1.2rem; /* Adjust font size */
+    color: hsl(218, 44%, 22%); /* Dark blue text color */
+    margin-top: 20px; /* Space above the title */
   }
   
+  /* Paragraph styling */
   p {
-    font-size: 0.9rem;
-    color: hsl(220, 15%, 55%);
+    font-size: 0.9rem; /* Slightly smaller text */
+    color: hsl(220, 15%, 55%); /* Grayish-blue text color */
   }
   
